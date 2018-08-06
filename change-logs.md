@@ -6,11 +6,11 @@
 # 
 
 *Synced With th latest LineageOS Sources as of 08.05.18
-*Initial Release (With Huge Help From SunilPaulMatthew's GitHub Commit Log and Build Framework, huge time saver!)
+*Initial Release (With Huge Help From SunilPaulMatthew's GitHub Commit Log and Build Script & Framework, huge time saver!)
 *Compiled with Bleeding-Edge 8.2 toolchain (SunilPaulMathew)
 *Spectrum profile support (KazuDante)
 *Enable OC to 3072:
-  -DISCLAIMER: (You Must Adjust Voltages for you OWN specific device on higher OC steps)
+  -DISCLAIMER: (You Must Adjust Voltages for you OWN specific device on higher OC steps. I AM NOT RESPOSIBLE FOR YOUR DEVICE)
 *ZZmoove: adjusted to acommodate Overclocking (Thanks to Legitsu)
 *Enable 268 mhz underclock (Thanks to SunilPaulMatthew)
 *Tweak bandwith on higher OC steps (Thanks to ktoonsz)
@@ -25,7 +25,7 @@
 *Optimized Kernel Samepage Merging
 *QuickWakeup (Thanks CrazyGamer)
 *PowerSuspend  (Thanks Faux123)
-*Enable Cortex_A15 Optimizations (Fusion-Rom Dev Team)
+*Cortex_A15 Optimizations (Fusion-Rom Dev Team)
 *Add Missing Graphite Define (Ktoonsz)
 *Slimbus Overclock (Ktoonsz)
 *Slimbus Optimized Overclocking Of Master Component (CrazyGamer)
@@ -35,9 +35,9 @@
 *GPU Overclock up to 657 (Ktoonsz)
 *Enable Frontswap
 *Disable Swap Readahead
-*Added Boeffla wakelock blocker (Thanks to sunilpaulmathew & franciscofranco)
+*Boeffla wakelock blocker (Thanks to sunilpaulmathew & franciscofranco)
 *Increase Maximum Swappiness
-*Added Kernel mode neon (ShinySide)
+*Kernel mode neon (ShinySide)
 *Disable Direct Reclaim File Pages
 *Enable Unaligned Capability For ARM (CrazyGamerGR)
 *Update min-default adreno frequency to be 200 MHz (kholk)
@@ -46,7 +46,7 @@
 *Optimize Sched/Fair a bit (Faux123)
 *Applied many new compiler optimizations (Synergy kernel Team & Decimalman)
 *Zswap: Uses LZ4 now (if available)
-*Added support for LZ4-compressed kernel 
+*Support for LZ4-compressed kernel 
 *Fix memory leak in Mass Storage
 *Numerous oom_kill tweaks
 *Alucard, LazyPlug & Mako Hotplugging
@@ -58,4 +58,4 @@
 # All Changes
 # Signed Off
 # By
-# The-Skater-187
+# The~Skater~187

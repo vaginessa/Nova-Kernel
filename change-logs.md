@@ -6,7 +6,7 @@
 # 
 
 *Synced With th latest LineageOS Sources as of 08.05.18
-*Initial Release (With Huge Help From SunilPaulMatthew's GitHub Commit Log and Build Framework)
+*Initial Release (With Huge Help From SunilPaulMatthew's GitHub Commit Log and Build Framework, huge time saver!)
 *Compiled with Bleeding-Edge 8.2 toolchain (SunilPaulMathew)
 *Spectrum profile support (KazuDante)
 *Enable OC to 3072:

@@ -46,6 +46,7 @@ ramdisk_compression=auto;
 ## AnyKernel file attributes
 # set permissions/ownership for included ramdisk files
 chmod -R 755 $ramdisk
+chown -R root:root $ramdisk/*;
 
 ## AnyKernel install
 dump_boot;
@@ -54,7 +55,7 @@ dump_boot;
 
 # init.rc
 backup_file init.rc;
-grep "import /init.spectrum.rc" init.rc >/dev/null || sed -i '1,/.*import.*/s/.*import.*/import \/init.spectrum.rc\n&/' init.rc
+grep "import /init.Nova.rc" init.rc >/dev/null || sed -i '1,/.*import.*/s/.*import.*/import \/init.Nova.rc\n&/' init.rc
 
 # init.qcom.rc
 backup_file init.qcom.rc;

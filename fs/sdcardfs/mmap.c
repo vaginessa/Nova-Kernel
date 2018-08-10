@@ -65,10 +65,14 @@ static int sdcardfs_page_mkwrite(struct vm_area_struct *vma,
 out:
 	return err;
 }
-
+#ifdef CONFIG_AIO_OPTIMIZATION
+static ssize_t sdcardfs_direct_IO(int rw, struct kiocb *iocb,
+                            struct iov_iter *iter, loff_t offset)
+#else
 static ssize_t sdcardfs_direct_IO(int rw, struct kiocb *iocb,
 			      const struct iovec *iov, loff_t offset,
 			      unsigned long nr_segs)
+#endif
 {
 	/*
 	 * This function should never be called directly.  We need it
